@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run DMD",
+            "type": "shell",
+            "command": "dmd",
+            "args": [
+                "-run",
+                "${fileBasename}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Build the project using Python's build module"
+        }
+    ]
+}
